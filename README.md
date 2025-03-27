@@ -1,6 +1,6 @@
 # Urban Issues Tracker
-Autor: Bruno Leão Guimarães
-Problema: Dificuldade de comunicação para registrar problemas de infraestrutura urbana em bairros.
+## Visão Geral do Projeto
+Este projeto é uma plataforma de rastreamento de problemas urbanos. Ele permite que os usuários registrem ocorrências em um mapa, anexem fotos, categorizem problemas e acompanhem seu status. Também fornecerá um mecanismo para que gestores possam acompanhar e priorizar soluções para os problemas registrados.
 
 ## Estrutura do Repositório
 Este repositório está organizado em três pastas principais:
