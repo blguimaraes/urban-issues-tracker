@@ -1,50 +1,69 @@
-# Welcome to your Expo app 👋
+# Visão Geral do Projeto
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Este projeto é um aplicativo de rastreamento de problemas urbanos. Ele permite que os usuários registrem ocorrências em um mapa, anexem fotos, categorizem problemas e acompanhem seu status. O app foi desenvolvido utilizando **Expo** e **React Native**, com suporte a navegação via **expo-router**.
 
-## Get started
+# Instruções de Instalação
 
-1. Install dependencies
+Siga os passos abaixo para configurar o projeto em sua máquina:
 
-   ```bash
-   npm install
-   ```
+### 1. Requisitos
 
-2. Start the app
+Antes de começar, certifique-se de ter instalado:
 
-   ```bash
-    npx expo start
-   ```
+- **Node.js** e **npm** (ou **yarn**)
+- **Expo CLI**, que pode ser instalado com o comando:
+  ```sh
+  npm install -g expo-cli
+  ```
 
-In the output, you'll find options to open the app in a
+### 2. Clonando o Repositório
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Baixe o código-fonte do projeto executando:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```sh
+git clone https://github.com/blguimaraes/urban-issues-tracker.git
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Entre no diretório do projeto:
 
-## Learn more
+```sh
+cd urban-issues-tracker/app-urban-issues-tracker
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+### 3. Instalando Dependências
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Instale as dependências do projeto com:
 
-## Join the community
+```sh
+npm install
+```
 
-Join our community of developers creating universal apps.
+# Executando o Projeto
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Para rodar o projeto no seu dispositivo móvel usando Expo Go:
+
+1. Instale o aplicativo **Expo Go** no seu smartphone (disponível na Play Store/App Store).
+2. Inicie o servidor de desenvolvimento:
+   ```sh
+   npx expo start
+   ```
+3. Escaneie o QR Code exibido no terminal com o aplicativo **Expo Go**.
+4. O app será carregado no seu dispositivo.
+
+# Observações Importantes
+
+- Este projeto usa **react-native-maps**, que **não** é compatível com navegadores. Por isso, ele **não pode ser executado no web**.
+- Se for necessário rodar no emulador, configure um emulador do **Android Studio** ou **Xcode**.
+
+# Solução de Problemas
+
+Caso encontre problemas durante a instalação ou execução do projeto, consulte:
+
+- [Documentação do Expo](https://docs.expo.dev/)
+- [Documentação do React Native Maps](https://github.com/react-native-maps/react-native-maps)
+
+Se o problema persistir, abra uma **issue** no repositório do projeto no GitHub.
+
+---
+
+Se precisar de ajustes ou adicionar algo específico, me avise! 🚀
